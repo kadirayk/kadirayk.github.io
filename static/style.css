@@ -2,6 +2,10 @@ body {
     background-color: white;
 }
 
+a:hover { 
+    background-color: #E0EBF5;
+}
+
 .content h1 {
 	font-size:120%;
 }
