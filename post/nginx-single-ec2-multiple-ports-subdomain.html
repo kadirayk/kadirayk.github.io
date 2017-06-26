@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="../static/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<title>Serving from multiple ports with subdomains on EC2 with nginx</title>
+
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+<body>
+
+<div class="header">
+<a href="../index.html">home</a>&nbsp;&nbsp;<a href="../about.html">about</a>
+</div>
+
+<div class="content">
+	<h1>Hosting from multiple ports on a single EC2 instance with nginx</h1>
+	<p>I have been planing to set up a <a href="http://apimockery.com">business</a> over this weekend :p, since <a href="I-have-a-blog-now.html">I finally got my styleless blog</a>
+	I thought it'd be great to share the things I found amazing on my way.</p>
+		
+	<p>I was shocked when I found out it was not possible to associate subdomains to different ports of your EC2 instance by default.
+	 But luckily we can setup <a href="https://www.nginx.com/">nginx</a> to act as a reverse proxy to direct requests to different ports of a single EC2 instance.</p>
+	
+	<p>My experience is based on Amazon Linux AMI but the steps should be more or less the same for other linux instances.</p>
+	
+	<h3>1. Get an Elastic IP</h3>
+	<ul>
+		<li>On Amazon EC2 console choose Elastic IPs. </li>
+		<li>Allocate new address.</li>
+		<li>Associate Elastic IP with your EC2 instance on Actions -> Associate address</li>
+	</ul>
+	
+	<h3>2. Create Hosted Zone</h3>
+	<ul>
+		<li>On Amazon Route 53 console choose Hosted Zones</li>
+		<li>Create Hosted Zone with yourdomain.com</li>
+		<li>Create Record Set for sub.yourdomain.com</li>
+	</ul>
+	
+	<h3>3. Register your DNS values to your DNS Provider</h3>
+	<p>On your Record Set panel you should have values like <i>ns-1234.awsdns-1234.org</i>. Register those values to your DNS provider.
+	Resolving your Elastic IP adress from yourdomain.com can take a while. Don't freak out as I did :p just chill out or move to the next steps.</p>
+	
+	<h3>4. Start Your Applications on Different Ports </h3>
+	<p>I had a react frontend application running on port 3000 and a golang backend application running on 3001. 
+	Start whatever your applications are on whichever ports you secretly have feelings to.</p>
+	
+	<h3>5. Open port 80 on EC2</h3>
+	<p>Traffic for yourdomain.com will want to access port 80 and nginx will be serving on this port.</p>
+	<ul>
+		<li>On Amazon EC2 console select your instance</li>
+		<li>Find and choose security groups</li>
+		<li>Edit Inbound rules add HTTP with source anywhere</li>
+	</ul>
+	
+	<h3>5. Get nginx</h3>
+	<ul>
+		<li><pre class="prettyprint">sudo yum install nginx</pre></li> 
+		<li><pre class="prettyprint">cd /etc/nginx</pre></li>
+		<li><pre class="prettyprint">sudo vi nginx.conf</pre> and replace everything inside server {} with the following</li>
+		<pre class="prettyprint">server {  
+    listen 80;
+    server_name yourdomain.com;
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {  
+    listen 80;
+    server_name sub.yourdomain.com;
+    location / {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+		</pre>
+		<p>ps: It doesn't have to be a subdomain, it can be a completely different domain name.</p>
+		
+		<li> it is also possible to direct requests to same domain with different resource locations. 
+		like  <i>yourdomain.com -> localhost:3000</i> and <i>yourdomain.com/blog -> localhost:3001</i> with the following configuration: </li>
+		
+		<pre class="prettyprint">server {  
+    listen 80;
+    server_name yourdomain.com;
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+    location /blog {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+		</pre>
+		<li><pre class="prettyprint">sudo nginx -s reload</pre></li>	
+		</ul>
+	
+	<br/>
+	<p>I just loved how simply nginx could be configurated.</p>
+	<br/><br/><br/>
+	
+	
+</div>
+
+</body>
+</html>
