@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="../static/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<title>Generating a New Application with OpenDaylight Startup Archetype</title>
+
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+<body>
+
+<div class="header">
+<a href="../index.html">home</a>&nbsp;&nbsp;<a href="../about.html">about</a>
+</div>
+
+<div class="content">
+	<h1>Generating a New Application with OpenDaylight Startup Archetype</h1>
+	<p>It seems the instructions on the OpenDaylight <a href="https://wiki.opendaylight.org/view/Controller_Core_Functionality_Tutorials:Application_Development_Tutorial">wiki</a> is outdated as of 19 Aug 2018, 
+	and the startup maven archetype is now part of <a href="https://github.com/opendaylight/archetypes">archetypes project</a>. I think previously it was part of the <a href="https://github.com/opendaylight/controller">OpenDaylight Controller</a>.
+	I couldn't find any instructions about how to generate maven archetype with the new archetype project, and sort of found my way around to create a new startup application.
+	These are the steps I followed:</p>
+
+	<span>Get the archetypes project on your machine, and build the project.</span>
+<pre class="prettyprint">git clone https://github.com/opendaylight/archetypes.git</pre>
+
+<pre class="prettyprint">cd archetypes</pre>
+
+<pre class="prettyprint">mvn -nsu clean install</pre>
+
+<span>Move to a different directory which you want to create the project.</span>
+
+<span>Change the values in the following command for your own project. ("your.group.id", "YourAppName")</span>
+<pre class="prettyprint">mvn archetype:generate -DgroupId=your.group.id -DartifactId=YourAppName \
+-DarchetypeGroupId=org.opendaylight.archetypes \
+-DarchetypeArtifactId=opendaylight-startup-archetype</pre>
+
+<span>Then cd into newly created folder which will have the name: "YourAppName". And build the project.</span>
+<pre class="prettyprint">mvn -nsu clean install</pre>
+
+<span>After the build you can run karaf to see it is working.</span>
+<pre class="prettyprint">cd karaf/target/assembly/bin
+./karaf</pre>
+	
+</div>
+
+</body>
+</html>
