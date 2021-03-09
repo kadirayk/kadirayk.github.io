@@ -6,7 +6,7 @@ layout: page
 ---
 
 I am a Ph.D. student and working as a research assistant in [Eric Bodden's](https://bodden.de)
-research group [Software Engineering](https://www.hni.uni-paderborn.de/en/swt/) at the [Heinz Nixdorf Institut](https://www.hni.uni-paderborn.de/en/).
+research group [Secure Software Engineering](https://www.hni.uni-paderborn.de/en/sse/) at the [Heinz Nixdorf Institut](https://www.hni.uni-paderborn.de/en/).
 
  I received a M.Sc. in Computer Science from [Paderborn University](https://uni-paderborn.de). 
  Prior to that, I worked as a software engineer at [Turkish Airlines](https://www.turkishairlines.com/).
