@@ -5,13 +5,10 @@
 layout: home
 ---
 
-I am a Ph.D. student and working as a research assistant in [Eric Bodden's](https://bodden.de)
-research group [Secure Software Engineering](https://www.hni.uni-paderborn.de/en/sse/) at the [Heinz Nixdorf Institut](https://www.hni.uni-paderborn.de/en/).
+I am a Ph.D. student and work on scaling precise static code analyses on large-scale code bases.  
+I am advised by [Eric Bodden](https://bodden.de) at [Paderborn University](https://www.hni.uni-paderborn.de/en/sse/).
 
- I received a M.Sc. in Computer Science from [Paderborn University](https://uni-paderborn.de).
- Prior to that, I worked as a software engineer at [Turkish Airlines](https://www.turkishairlines.com/).
- I graduated from [Yildiz Technical University](https://www.yildiz.edu.tr/en/) with a B.Sc. in Computer Engineering, 
- during that I did an exchange year at [Chemnitz University of Technology](https://www.tu-chemnitz.de/).
+I did my master's at [Paderborn University](https://en.wikipedia.org/wiki/Paderborn_University) and bachelor's at [Yildiz Technical University](https://en.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Technical_University) with an exchange year at [Chemnitz University of Technology](https://en.wikipedia.org/wiki/Chemnitz_University_of_Technology).
 
 ## Resarch Interests
 
@@ -25,9 +22,12 @@ I am interested in static program analysis. More specifically I focus on:
 
 ## Projects
 
+### **[SparseBoomerang](https://github.com/secure-software-engineering/SparseBoomerang)**
+[SparseBoomerang](https://github.com/secure-software-engineering/SparseBoomerang) is the scalable alternative to Boomerang pointer analysis framework.
+
 ### **[SootUp](https://github.com/soot-oss/SootUp)**
 
-[SootUp](https://github.com/soot-oss/SootUp) is a new version of [Soot](https://github.com/soot-oss/soot) with a completely overhauled architecture. I am currently leading SootUp's development.
+[SootUp](https://github.com/soot-oss/SootUp) is a new version of good old [Soot](https://github.com/soot-oss/soot) framework with a completely overhauled architecture. I am currently leading SootUp's development.
 
 ### **[SootFX](https://github.com/secure-software-engineering/SootFX)**
 
@@ -43,9 +43,11 @@ I am interested in static program analysis. More specifically I focus on:
   - [Winter 2020/21](https://www.hni.uni-paderborn.de/sse/lehre/vorlesungsarchiv/ws-20202021/deca/)
 - *Designing Code Analyses for Large-scale Software Systems II* (Master's Course)
   - [Summer 2021](https://www.hni.uni-paderborn.de/sse/lehre/vorlesungsarchiv/ss-2021/designing-code-analyses-for-large-scale-software-systems-2-deca-2-ss2021/)
+  - [Summer 2023](https://www.hni.uni-paderborn.de/sse/lehre/designing-code-analyses-for-large-scale-software-systems-2-deca-2-ss2023/)
 
 ## Thesis Supervision
 
+- *Feature-based Adaptive Sparsification for Demand-Driven Pointer Analysis* (Master's Thesis) - Ongoing
 - *Soundness Evaluation of the Call Graph Construction Algorithms of the Static Analysis Frameworks for Java* (Master's Thesis) - Ongoing
 - *Empirical Evaluation of Forward and Backward Static Taint Analysis* (Master's Thesis) - Ongoing
 - *Extending and Evaluating a Control Flow Obfuscation Technique for JVM Applications Utilizing InvokeDynamic with Native Bootstrapping* (Bachelor's Thesis) - 2022
