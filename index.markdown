@@ -5,7 +5,7 @@
 layout: home
 ---
 
-I am a Ph.D. student and work on scaling precise static code analyses on large-scale code bases.  
+I am a Ph.D. student, working on scaling precise static code analyses on large-scale code bases.  
 I am advised by [Eric Bodden](https://bodden.de) at [Paderborn University](https://www.hni.uni-paderborn.de/en/sse/).
 
 I did my master's at [Paderborn University](https://en.wikipedia.org/wiki/Paderborn_University) and bachelor's at [Yildiz Technical University](https://en.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Technical_University) with an exchange year at [Chemnitz University of Technology](https://en.wikipedia.org/wiki/Chemnitz_University_of_Technology).
@@ -18,20 +18,26 @@ I am interested in static program analysis. More specifically I focus on:
 - Program-specific applications of such optimizations
 - Techniques for specifying program analyses
 
-[Tips for students interested in writing their thesis with me](/thesis)
+[Advice for students interested in writing their thesis with me](/thesis)
 
-## Projects
+## Publications
 
-### **[SparseBoomerang](https://github.com/secure-software-engineering/SparseBoomerang)**
-[SparseBoomerang](https://github.com/secure-software-engineering/SparseBoomerang) is the scalable alternative to Boomerang pointer analysis framework.
+### Program Analysis
 
-### **[SootUp](https://github.com/soot-oss/SootUp)**
+**Kadiray Karakaya**, Stefan Schott, Jonas Klauke, Eric Bodden, Markus Schmidt, Linghui Luo and Dongjie He, ”SootUp: A Redesign of the Soot Static Analysis Framework,” 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Luxembourg City, Luxembourg, 2024 [[Accepted]](https://etaps.org/2024/programme/) - [[source code]](https://github.com/soot-oss/SootUp/)
 
-[SootUp](https://github.com/soot-oss/SootUp) is a new version of good old [Soot](https://github.com/soot-oss/soot) framework with a completely overhauled architecture. I am currently leading SootUp's development.
+**Kadiray Karakaya** and Eric Bodden, ”Symbol-Specific Sparsification of Interprocedural Distributive Environment Problems,” IEEE/ACM 46th International Conference on Software Engineering (ICSE), Lisbon, Portugal, 2024 [[Accepted]](https://conf.researchr.org/details/icse-2024/icse-2024-research-track/88/Symbol-Specific-Sparsification-of-Interprocedural-Distributive-Environment-Problems) - [[preprint]](https://arxiv.org/abs/2401.14813) - [[source code]](https://github.com/secure-software-engineering/SparseIDE)
 
-### **[SootFX](https://github.com/secure-software-engineering/SootFX)**
+**Kadiray Karakaya** and Eric Bodden, ”Two Sparsification Strategies for Accelerating Demand-Driven Pointer Analysis,” IEEE Conference on Software Testing, Verification and Validation (ICST), Dublin, Ireland, 2023 [[DOI]](10.1109/ICST57152.2023.00036) - [[preprint]](https://www.bodden.de/pubs/kb23sparsification.pdf) - [[source code]](https://github.com/secure-software-engineering/SparseBoomerang)
 
-[SootFX](https://github.com/secure-software-engineering/SootFX) is a static code feature extraction tool for Java and Android. I have designed it to be easily extensible for supporting new features and arbitrary resource providers.
+**Kadiray Karakaya** and Eric Bodden, ”SootFX: A Static Code Feature Extraction Tool for Java and Android,” IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM), Luxembourg, 2021 [[DOI]](https://doi.org/10.1109/SCAM52516.2021.00030) - [[preprint]](https://github.com/secure-software-engineering/SootFX/blob/main/paper_preprint.pdf) - [[source code]](https://github.com/secure-software-engineering/SootFX)
+
+### Other Topics
+
+**Kadiray Karakaya**, Enes Yigitbas and Gregor Engels, ”Automated UX Evaluation for User-Centered Design of VR Interfaces,” Human-Centered Software Engineering (HCSE), 2022 [[DOI]](https://doi.org/10.1007/978-3-031-14785-2_9)
+
+Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhancing Human-in-the-Loop Adaptive Systems through Digital Twins and VR Interfaces,” International Symposium on Software Engineering for Adaptive and Self- Managing Systems (SEAMS), Madrid, Spain, 2021 [[DOI]](https://doi.ieeecomputersociety.org/10.1109/SEAMS51251.2021.00015) - [[preprint]](https://arxiv.org/pdf/2103.10804.pdf)
+
 
 ## Teaching Assistance
 
@@ -47,7 +53,9 @@ I am interested in static program analysis. More specifically I focus on:
 
 ## Thesis Supervision
 
-- *Feature-based Adaptive Sparsification for Demand-Driven Pointer Analysis* (Master's Thesis) - Ongoing
-- *Soundness Evaluation of the Call Graph Construction Algorithms of the Static Analysis Frameworks for Java* (Master's Thesis) - Ongoing
-- *Empirical Evaluation of Forward and Backward Static Taint Analysis* (Master's Thesis) - Ongoing
-- *Extending and Evaluating a Control Flow Obfuscation Technique for JVM Applications Utilizing InvokeDynamic with Native Bootstrapping* (Bachelor's Thesis) - 2022
+- Zun Wang, *Feature-based Adaptive Sparsification for Demand-Driven Pointer Analysis* (Master's Thesis) - Ongoing
+- Tobias Wilker, *Static code analysis for Unity-based VR apps: An exploratory research* (Master's Thesis) - 2023
+- Sebastian Hüpping, *Exploring Vulnerability Detection and Mitigation Strategies of Immersive Attacks through Static Code Analysis* (Bachelor's Thesis) - 2023
+- Hari Kizhedath, *Soundness Evaluation of the Call Graph Construction Algorithms of the Static Analysis Frameworks for Java* (Master's Thesis) - 2023
+- Amit Kumar, *Empirical Evaluation of Forward and Backward Static Taint Analysis* (Master's Thesis) - 2023
+- Andre Blanke, *Extending and Evaluating a Control Flow Obfuscation Technique for JVM Applications Utilizing InvokeDynamic with Native Bootstrapping* (Bachelor's Thesis) - 2022
