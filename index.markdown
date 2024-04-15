@@ -21,7 +21,7 @@ I am interested in static program analysis. More specifically I focus on:
 
 ### Program Analysis
 
-**Kadiray Karakaya**, Stefan Schott, Jonas Klauke, Eric Bodden, Markus Schmidt, Linghui Luo and Dongjie He, ”SootUp: A Redesign of the Soot Static Analysis Framework,” 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Luxembourg City, Luxembourg, 2024 [[DOI]](https://link.springer.com/chapter/10.1007/978-3-031-57246-3_13) - [[source code]](https://github.com/soot-oss/SootUp/)
+**Kadiray Karakaya**, Stefan Schott, Jonas Klauke, Eric Bodden, Markus Schmidt, Linghui Luo and Dongjie He, ”SootUp: A Redesign of the Soot Static Analysis Framework,” 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Luxembourg City, Luxembourg, 2024 [[DOI]](https://link.springer.com/chapter/10.1007/978-3-031-57246-3_13) - [[preprint]](https://github.com/soot-oss/SootUp/blob/develop/docs/SootUp-paper.pdf) - [[source code]](https://github.com/soot-oss/SootUp/)
 
 **Kadiray Karakaya** and Eric Bodden, ”Symbol-Specific Sparsification of Interprocedural Distributive Environment Problems,” IEEE/ACM 46th International Conference on Software Engineering (ICSE), Lisbon, Portugal, 2024 [[DOI]](https://doi.org/10.1145/3597503.3639092) - [[preprint]](https://arxiv.org/abs/2401.14813) - [[source code]](https://github.com/secure-software-engineering/SparseIDE)
 
@@ -35,6 +35,10 @@ I am interested in static program analysis. More specifically I focus on:
 
 Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhancing Human-in-the-Loop Adaptive Systems through Digital Twins and VR Interfaces,” International Symposium on Software Engineering for Adaptive and Self- Managing Systems (SEAMS), Madrid, Spain, 2021 [[DOI]](https://doi.ieeecomputersociety.org/10.1109/SEAMS51251.2021.00015) - [[preprint]](https://arxiv.org/pdf/2103.10804.pdf)
 
+## Service
+- Extended Review Committee Member: [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-papers)
+- Artifact Evaluation Commitee Member: [ISSTA 2024](https://2024.issta.org/track/issta-2024-artifact-evaluation), [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-artifact-evaluation)
+
 ## Teaching Assistance
 
 - *Seminar Secure Systems Engineering* (Master's Course)
@@ -46,6 +50,7 @@ Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhan
 - *Designing Code Analyses for Large-scale Software Systems II* (Master's Course)
   - [Summer 2021](https://www.hni.uni-paderborn.de/sse/lehre/vorlesungsarchiv/ss-2021/designing-code-analyses-for-large-scale-software-systems-2-deca-2-ss2021/)
   - [Summer 2023](https://www.hni.uni-paderborn.de/sse/lehre/designing-code-analyses-for-large-scale-software-systems-2-deca-2-ss2023/)
+  - [Summer 2024](https://www.hni.uni-paderborn.de/sse/lehre/deca2)
 
 ## Thesis Supervision
 
