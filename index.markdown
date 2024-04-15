@@ -5,10 +5,7 @@
 layout: home
 ---
 
-I am a Ph.D. student, working on scaling precise static code analyses on large-scale code bases.  
-I am advised by [Eric Bodden](https://bodden.de) at [Paderborn University](https://www.hni.uni-paderborn.de/en/sse/).
-
-I did my master's at [Paderborn University](https://en.wikipedia.org/wiki/Paderborn_University) and bachelor's at [Yildiz Technical University](https://en.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Technical_University) with an exchange year at [Chemnitz University of Technology](https://en.wikipedia.org/wiki/Chemnitz_University_of_Technology).
+I am a senior Ph.D. student at [Paderborn University](https://www.hni.uni-paderborn.de/en/sse/), advised by [Eric Bodden](https://bodden.de). I work on scaling precise static code analyses on large-scale code bases, mainly through sparse data-flow and pointer analyses. I lead the development of the [SootUp](https://github.com/soot-oss/SootUp) static analysis framework.
 
 ## Resarch Interests
 
@@ -24,9 +21,9 @@ I am interested in static program analysis. More specifically I focus on:
 
 ### Program Analysis
 
-**Kadiray Karakaya**, Stefan Schott, Jonas Klauke, Eric Bodden, Markus Schmidt, Linghui Luo and Dongjie He, ”SootUp: A Redesign of the Soot Static Analysis Framework,” 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Luxembourg City, Luxembourg, 2024 [[Accepted]](https://etaps.org/2024/programme/) - [[source code]](https://github.com/soot-oss/SootUp/)
+**Kadiray Karakaya**, Stefan Schott, Jonas Klauke, Eric Bodden, Markus Schmidt, Linghui Luo and Dongjie He, ”SootUp: A Redesign of the Soot Static Analysis Framework,” 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Luxembourg City, Luxembourg, 2024 [[DOI]](https://link.springer.com/chapter/10.1007/978-3-031-57246-3_13) - [[source code]](https://github.com/soot-oss/SootUp/)
 
-**Kadiray Karakaya** and Eric Bodden, ”Symbol-Specific Sparsification of Interprocedural Distributive Environment Problems,” IEEE/ACM 46th International Conference on Software Engineering (ICSE), Lisbon, Portugal, 2024 [[Accepted]](https://conf.researchr.org/details/icse-2024/icse-2024-research-track/88/Symbol-Specific-Sparsification-of-Interprocedural-Distributive-Environment-Problems) - [[preprint]](https://arxiv.org/abs/2401.14813) - [[source code]](https://github.com/secure-software-engineering/SparseIDE)
+**Kadiray Karakaya** and Eric Bodden, ”Symbol-Specific Sparsification of Interprocedural Distributive Environment Problems,” IEEE/ACM 46th International Conference on Software Engineering (ICSE), Lisbon, Portugal, 2024 [[DOI]](https://doi.org/10.1145/3597503.3639092) - [[preprint]](https://arxiv.org/abs/2401.14813) - [[source code]](https://github.com/secure-software-engineering/SparseIDE)
 
 **Kadiray Karakaya** and Eric Bodden, ”Two Sparsification Strategies for Accelerating Demand-Driven Pointer Analysis,” IEEE Conference on Software Testing, Verification and Validation (ICST), Dublin, Ireland, 2023 [[DOI]](10.1109/ICST57152.2023.00036) - [[preprint]](https://www.bodden.de/pubs/kb23sparsification.pdf) - [[source code]](https://github.com/secure-software-engineering/SparseBoomerang)
 
@@ -37,7 +34,6 @@ I am interested in static program analysis. More specifically I focus on:
 **Kadiray Karakaya**, Enes Yigitbas and Gregor Engels, ”Automated UX Evaluation for User-Centered Design of VR Interfaces,” Human-Centered Software Engineering (HCSE), 2022 [[DOI]](https://doi.org/10.1007/978-3-031-14785-2_9)
 
 Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhancing Human-in-the-Loop Adaptive Systems through Digital Twins and VR Interfaces,” International Symposium on Software Engineering for Adaptive and Self- Managing Systems (SEAMS), Madrid, Spain, 2021 [[DOI]](https://doi.ieeecomputersociety.org/10.1109/SEAMS51251.2021.00015) - [[preprint]](https://arxiv.org/pdf/2103.10804.pdf)
-
 
 ## Teaching Assistance
 
