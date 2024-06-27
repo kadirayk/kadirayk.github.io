@@ -35,7 +35,13 @@ I am interested in static program analysis. More specifically I focus on:
 
 Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhancing Human-in-the-Loop Adaptive Systems through Digital Twins and VR Interfaces,” International Symposium on Software Engineering for Adaptive and Self- Managing Systems (SEAMS), Madrid, Spain, 2021 [[DOI]](https://doi.ieeecomputersociety.org/10.1109/SEAMS51251.2021.00015) - [[preprint]](https://arxiv.org/pdf/2103.10804.pdf)
 
+### Tutorials and Talks
+
+**Kadiray Karakaya**, Stefan Schott, Jonas Klauke, Eric Bodden, Markus Schmidt, ”Static Code Analysis with SootUp,” 45th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), Copenhagen, Denmark, 2024 [[Tutorial]](https://pldi24.sigplan.org/details/pldi-2024-tutorials/4/Static-Code-Analysis-with-SootUp) - [[source code]](https://github.com/soot-oss/SootUp-Tutorial)
+
 ## Service
+
+- Program Committee Member: [SECDEV 2024](https://secdev.ieee.org/2024/program-committee/)
 - Extended Review Committee Member: [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-papers)
 - Artifact Evaluation Commitee Member: [ISSTA 2024](https://2024.issta.org/track/issta-2024-artifact-evaluation), [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-artifact-evaluation)
 
