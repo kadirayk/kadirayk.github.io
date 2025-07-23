@@ -19,7 +19,7 @@ I am interested in static program analysis. More specifically I focus on:
 
 ### Program Analysis
 
-**Kadiray Karakaya**, Palaniappan Muthuraman, Eric Bodden, ”Pick Your Call Graphs Well: On Scaling IFDS-Based Data-Flow Analyses” 14th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP ’25) at the 46th ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI’25), Seoul, Republic of Korea, 2025 [[TBA]](#)
+**Kadiray Karakaya**, Palaniappan Muthuraman, Eric Bodden, ”Pick Your Call Graphs Well: On Scaling IFDS-Based Data-Flow Analyses” 14th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP ’25) at PLDI, Seoul, Republic of Korea, 2025 [[DOI]](https://doi.org/10.1145/3735544.3735587)
 
 **Kadiray Karakaya**, Stefan Schott, Jonas Klauke, Eric Bodden, Markus Schmidt, Linghui Luo and Dongjie He, ”SootUp: A Redesign of the Soot Static Analysis Framework,” 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Luxembourg City, Luxembourg, 2024 [[DOI]](https://link.springer.com/chapter/10.1007/978-3-031-57246-3_13) - [[preprint]](https://github.com/soot-oss/SootUp/blob/develop/docs/SootUp-paper.pdf) - [[source code]](https://github.com/soot-oss/SootUp/)
 
@@ -43,12 +43,12 @@ Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhan
 
 ## Service
 
-- [SECDEV 2025](https://secdev.ieee.org/2025/program-committee/):  Program Committee
-- [CAV 2025](https://conferences.i-cav.org/2025/artifact/):    Artifact Evaluation Commitee
-- [SECDEV 2024](https://secdev.ieee.org/2024/program-committee/):  Program Committee
-- [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-papers):  Extended Review Committee
-- [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-artifact-evaluation): Artifact Evaluation Commitee
-- [ISSTA 2024](https://2024.issta.org/track/issta-2024-artifact-evaluation):  Artifact Evaluation Commitee
+- [SECDEV 2025](https://secdev.ieee.org/2025/program-committee/): Program Committee
+- [CAV 2025](https://conferences.i-cav.org/2025/artifact/): Artifact Evaluation Commitee
+- [SECDEV 2024](https://secdev.ieee.org/2024/program-committee/): Program Committee
+- [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-papers): Extended Review Committee
+- [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-artifact-evaluation): Artifact Evaluation Commitee
+- [ISSTA 2024](https://2024.issta.org/track/issta-2024-artifact-evaluation): Artifact Evaluation Commitee
 
 ## Teaching Assistance
 
@@ -63,7 +63,10 @@ Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhan
 
 ## Thesis Supervision
 
-- Shajib Tainur Shaikh, *Investigating the Runtime Values for the Invocation of Reflection Calls* (Master's Thesis) - Ongoing
+- Md. Arshad-Ul Hoque, *A Systematic Literature Review on Program Analysis and Software Testing* (Master's Thesis) - Ongoing
+- Shajib Tainur Shaikh, *Investigating the Runtime Values for the Invocation of Reflection Calls* (Master's Thesis) - 2025
+- Santosh Mohan, *Explaining Privacy-Relevant Program Slices to Android App Developers* (Master's Thesis) - 2025
+- Dennis Wüppelmann, *Visualizing Software Vulnerabilities in Virtual Reality* (Master's Thesis) - 2024
 - Zun Wang, *Feature-based Adaptive Sparsification for Demand-Driven Pointer Analysis* (Master's Thesis) - 2024
 - Palaniappan Muthuraman, *Empirical Evaluation of Call Graph Precision’s Impact on the Scalability
 of IFDS and IDE-Based Static Analyses* (Master's Thesis) - 2024
