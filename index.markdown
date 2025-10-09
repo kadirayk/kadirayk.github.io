@@ -43,12 +43,13 @@ Enes Yigitbas, **Kadiray Karakaya**, Ivan Jovanovikj and Gregor Engels, ”Enhan
 
 ## Service
 
+- [STATIC 2026](https://conf.researchr.org/committee/icse-2026/static-2026-papers-program-committee): Program Committee
 - [SECDEV 2025](https://secdev.ieee.org/2025/program-committee/): Program Committee
 - [CAV 2025](https://conferences.i-cav.org/2025/artifact/): Artifact Evaluation Commitee
 - [SECDEV 2024](https://secdev.ieee.org/2024/program-committee/): Program Committee
-- [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-papers): Extended Review Committee
-- [ECOOP 2024](https://2024.ecoop.org/track/ecoop-2024-artifact-evaluation): Artifact Evaluation Commitee
-- [ISSTA 2024](https://2024.issta.org/track/issta-2024-artifact-evaluation): Artifact Evaluation Commitee
+- [ECOOP 2024](https://2024.ecoop.org/committee/ecoop-2024-papers-extended-review-committee-and-external-reviewers): Extended Review Committee
+- [ECOOP 2024](https://2024.ecoop.org/committee/ecoop-2024-artifact-evaluation-artifact-evaluation-committee): Artifact Evaluation Commitee
+- [ISSTA 2024](https://2024.issta.org/committee/issta-2024-artifact-evaluation-artifact-evaluation-committee): Artifact Evaluation Commitee
 
 ## Teaching Assistance
 
